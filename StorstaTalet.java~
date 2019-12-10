@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class StorstaTalet {
+    public static void main(String[]args) {
+	System.out.println("Mata in två heltal");
+	    System.out.println("tal 1: ");
+	    Scanner in1 = new Scanner(System.in1);
+	int tal1 = in1.nextline();
+
+	
+	System.out.println("tal 2: ");
+	    Scanner in2 = new Scanner(System.in2);
+	int tal2 = in2.nextline();
+
+	if(tal1 > tal2){
+	    System.out.println("Det största talet är:" + tal1);
+	}
+
+	if(tal1 < tal2){
+	    System.out.println("Det största talet är:" + tal2);
+	}
+
+	else{
+	    System.out.println("Kan du skriiiva eller");
+    }
+}
